@@ -16,9 +16,6 @@ void setup() {
 void loop() {
   int potentioVal = analogRead(potentio1);
 
-  //int redValue = map(potentioVal, 0, 1023, 0, 255);
-  //int greenValue = map(potentioVal, 0,1023, 255,0);
-  //int blueValue = map(potentioVal, 0, 1023, 128, 255);
   if (potentioVal<171){
   analogWrite(red, 255);
   analogWrite(green, 0);
