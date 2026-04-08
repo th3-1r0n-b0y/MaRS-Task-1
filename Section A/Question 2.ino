@@ -53,7 +53,4 @@ void loop() {
   delay(delayTime);
   digitalWrite(ledPin, LOW);
   delay(delayTime);
-  analogWrite(red, 0);
-  analogWrite(green, 0);
-  analogWrite(blue, 0);
 }
